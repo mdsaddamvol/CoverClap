@@ -1,4 +1,4 @@
-import styles from "./postDetailsHero.module.scss";
+import styles from "./postDetailshero.module.scss";
 const PostDetailsHero = () => {
 	return (
 		<section className={styles.main}>
