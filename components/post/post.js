@@ -23,10 +23,10 @@ const Post = () => {
 				className={styles.postCover}
 			/>
 			<p className={styles.description}>
-				et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-				This book is a treatise on the theory of ethics, very popular during the
-				Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-				amet..", comes from a line in section 1.10.32.
+				et Malorum &quot; (The Extremes of Good and Evil) by Cicero, written in
+				45 BC. This book is a treatise on the theory of ethics, very popular
+				during the Renaissance. The first line of Lorem Ipsum, &quot;Lorem ipsum
+				dolor sit amet.. &quot;, comes from a line in section 1.10.32.
 			</p>
 			<Link href='/article'>
 				<a>

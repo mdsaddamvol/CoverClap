@@ -19,13 +19,13 @@ const ArticleBody = () => {
 				</div>
 				<div className={styles.right}>
 					<div className={styles.socialsIcon}>
-						<img src='/fb.svg' />
+						<img src='/fb.svg' alt='social icon' />
 					</div>
 					<div className={styles.socialsIcon}>
-						<img src='/twiiter.svg' />
+						<img src='/twiiter.svg' alt='social icon' />
 					</div>
 					<div className={styles.socialsIcon}>
-						<img src='/in.svg' />
+						<img src='/in.svg' alt='social icon' />
 					</div>
 				</div>
 			</div>
@@ -37,28 +37,28 @@ const ArticleBody = () => {
 				Latin words, consectetur, from a Lorem Ipsum passage, and going through
 				the cites of the word in classical literature, discovered the
 				undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-				of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-				Cicero, written in 45 BC. This book is a treatise on the theory of
-				ethics, very popular during the Renaissance. The first line of Lorem
-				Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-				1.10.32.
+				of &quot;de Finibus Bonorum et Malorum &quot; (The Extremes of Good and
+				Evil) by Cicero, written in 45 BC. This book is a treatise on the theory
+				of ethics, very popular during the Renaissance. The first line of Lorem
+				Ipsum, &quot;Lorem ipsum dolor sit amet.. &quot;, comes from a line in
+				section 1.10.32.
 			</p>
 			<p>
 				The standard chunk of Lorem Ipsum used since the 1500s is reproduced
-				below for those interested. Sections 1.10.32 and 1.10.33 from "de
-				Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact
-				original form, accompanied by English versions from the 1914 translation
-				by H. Rackham.
+				below for those interested. Sections 1.10.32 and 1.10.33 from &quot;de
+				Finibus Bonorum et Malorum &quot; by Cicero are also reproduced in their
+				exact original form, accompanied by English versions from the 1914
+				translation by H. Rackham.
 			</p>
 			<div className={styles.fotter}>
 				<div className={styles.socialsIcon}>
-					<img src='/fb.svg' />
+					<img src='/fb.svg' alt='social icon' />
 				</div>
 				<div className={styles.socialsIcon}>
-					<img src='/twiiter.svg' />
+					<img src='/twiiter.svg' alt='social icon' />
 				</div>
 				<div className={styles.socialsIcon}>
-					<img src='/in.svg' />
+					<img src='/in.svg' alt='social icon' />
 				</div>
 			</div>
 		</article>
