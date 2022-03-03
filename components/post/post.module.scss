@@ -1,0 +1,70 @@
+.main {
+	width: 100%;
+	max-width: 700px;
+	padding: 36px 0px 32px 0px;
+	border-bottom: 1px solid rgba($color: #333333, $alpha: 0.1);
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	h1 {
+		width: 100%;
+		font-family: "Merriweather";
+		font-style: normal;
+		font-weight: bold;
+		font-size: 34px;
+		line-height: 43px;
+		margin: 0;
+		color: #333333;
+	}
+	.authorInfos {
+		width: 100%;
+		margin-top: 27px;
+		margin-bottom: 11px;
+		display: flex;
+		align-items: center;
+		gap: 17px;
+		.profilePic {
+			border-radius: 50%;
+		}
+		.authorAndDate {
+			font-family: "Poppins";
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+			line-height: 21px;
+			color: #333333;
+		}
+	}
+	.postCover {
+		max-width: 100%;
+	}
+	.description {
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 32px;
+		margin: 0;
+		margin-top: 27px;
+
+		color: #000000;
+	}
+	.button {
+		max-width: 100%;
+		width: 335px;
+		height: 44px;
+		background: #8d6a20;
+		border-radius: 50px;
+		border: none;
+		margin-top: 44px;
+		font-family: "Roboto";
+		font-style: normal;
+		font-weight: 500;
+		font-size: 18px;
+		line-height: 21px;
+		cursor: pointer;
+		text-align: center;
+
+		color: #ffffff;
+	}
+}

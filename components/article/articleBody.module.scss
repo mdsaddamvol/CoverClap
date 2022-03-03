@@ -1,0 +1,91 @@
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 45px 22px 50px 22px;
+	.authorInfos {
+		width: 100%;
+		max-width: 700px;
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 20px;
+		.left {
+			width: 250px;
+			display: flex;
+			gap: 12px;
+			.profilePic {
+				width: 40px;
+				height: 40px;
+				border-radius: 50%;
+			}
+			.nameAndDate {
+				font-family: "Poppins";
+				font-style: normal;
+				font-weight: normal;
+				font-size: 14px;
+				line-height: 21px;
+				color: #333333;
+			}
+		}
+		.right {
+			width: 300px;
+			display: flex;
+			justify-content: flex-end;
+			align-items: center;
+			gap: 19px;
+			.socialsIcon {
+				width: 40px;
+				height: 40px;
+				border: 1px solid #000000;
+				border-radius: 50%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				cursor: pointer;
+			}
+		}
+	}
+	p {
+		width: 100%;
+		max-width: 700px;
+		font-family: "Poppins";
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 32px;
+		color: #000000;
+	}
+	.fotter {
+		width: 100%;
+		padding: 100px 0px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 19px;
+
+		.socialsIcon {
+			width: 40px;
+			height: 40px;
+			border: 1px solid #000000;
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			cursor: pointer;
+		}
+	}
+}
+@media (max-width: "500px") {
+	.main {
+		padding: 28px 22px 50px 22px;
+		.authorInfos {
+			flex-direction: column;
+
+			gap: 6px;
+			.right {
+				width: 100%;
+			}
+		}
+	}
+}
